@@ -28,9 +28,9 @@ It implements a powerful feature which allows you to storage subscriptions insid
 
 Here is the official [github repository](https://github.com/PabloRNC/twitchapi) and [page](https://pablornc.github.io/twitchapi).
 
-:::warn
+> [!WARNING]
 
-Currently this package is in beta as it doesn't support all the kinds of events but the event we need for this bot is fully supported so don't warn about it. The latest realease which has been fully tested is 1.0.0-beta.18 but it doesn't incorpores all the features we need so we will use the latest beta which is 1.0.0-beta.23, don't worry because it will work at every moment. It's about time that the package exits from beta. 
+> Currently this package is in beta as it doesn't support all the kinds of events but the event we need for this bot is fully supported so don't warn about it. The latest realease which has been fully tested is 1.0.0-beta.18 but it doesn't incorpores all the features we need so we will use the latest beta which is 1.0.0-beta.23, don't worry because it will work at every moment. It's about time that the package exits from beta. 
 ### @twitchapi/helix
 
 This is another make created by me which we are going to use it to make request to the Twitch API. We are not directly installing it as is used by the `@twitchapi/eventsub` package and we are using the client created for the package to make the request.
@@ -57,10 +57,9 @@ Then you will have to fill the `WEBHOOK_SECRET` field with any string you want f
 
 Finally you have to fill the `LOCALTUNNEL_SUBDOMAIN` field with any string as we are using localtunnel to expose our localhost and have an `https` url required for the Twitch EventSub, and also fill `PORT` field for setting in which port of your machine the express server will be installed.
 
-:::warn
+> [!WARNING]
 
-It's highly recommended to maintain and don't edit the `WEBHOOK_SECRET` or `LOCALTUNNEL_SUBDOMAIN` as this will make your subscriptions not to be recovered between process.
-:::
+> It's highly recommended to maintain and don't edit the `WEBHOOK_SECRET` or `LOCALTUNNEL_SUBDOMAIN` as this will make your subscriptions not to be recovered between process.
 
 
 ## Getting Started
