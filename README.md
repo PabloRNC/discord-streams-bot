@@ -68,7 +68,7 @@ It's highly recommended to maintain and don't edit the `WEBHOOK_SECRET` or `LOCA
 First of all we have to clone this repository to get the source code by executing git clone command within the shell.
 
 ```bash
-git clone https://github.com/PabloRNC/streams-discord-bot
+git clone https://github.com/PabloRNC/discord-streams-bot.git
 ```
 
 Then after the repository is installed within your computer it's time to setup the project and install all the dependencies.
