@@ -48,7 +48,7 @@ Before you start you will need to fill the enviromental variables (.env) located
 
 First of all you have to generate a Discord Bot Token for the `BOT_TOKEN` by creating a new app in the [Discord Developer Portal](https://discord.com/developers/applications).
 
-Having created your app, generated the token and then inviting it to your server you will have to create a Twitch application in the Developer Console and coping the client id for the `TWITCH_CLIENT_ID` field and the secret for the `TWITCH_CLIENT_SECRET` field.
+Having created your app, generated the token and then inviting it to your server you will have to create a Twitch application in the [Developer Console](https://dev.twitch.tv/console) then you will have to copy the client id for the `TWITCH_CLIENT_ID` field and the client secret for the `TWITCH_CLIENT_SECRET` field.
 
 After that you will need to create a database. In the example we are using mongo so you will have to create a Mongo Database and then coping the connection string and paste it in the `MONGO_URI` field.
 
