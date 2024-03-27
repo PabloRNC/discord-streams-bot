@@ -109,5 +109,5 @@ To check them you will only have to type one of those commands like `channels ad
 
 As you can see this project runs without intermediate steps from the user requesting the notifications. This will mean that the user isn't authorizating within your Twitch app making each subscription from the EventSub you create cost `1`. Your application have a maximum cost of `10000` which you can't pass so your bot have only `10000` subscriptions to create. 
 
-To solve it the only way it's making the broadcaster, which streams are being notified, to authorize within your app, this will make the subscription to cost `0`. Although this will mean that if an user want to be notified afrom the streams of another user who isn't him he can't make it as if he authorizes within your Twitch app will only make cost `0` to the subscription created for notifying about his streams and not about other ones.
+To solve it the only way it's making the broadcaster, which streams are being notified, to authorize within your app, this will make the subscription to cost `0`. Although this will mean that if an user want to be notified from the streams of another user who isn't him he can't make it as if he authorizes within your Twitch app will only make cost `0` to the subscription created for notifying about his streams and not about other ones.
 
